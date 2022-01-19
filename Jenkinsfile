@@ -6,10 +6,5 @@ pipeline {
                 sh 'python --version'
             }
         }
-        stage('build2') {
-            steps {
-                sh 'python --version'
-            }
-        }
     }
 }
